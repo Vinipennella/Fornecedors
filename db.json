@@ -1,25 +1,29 @@
 {
-  "supplierId": "SUP-010",
-  "supplierName": "Metalúrgica Futurion",
-  "partId": "PIN-16F-2024",
   "availability": [
     {
-      "date": "2025-01-10",
-      "availableQty": 4300,
-      "reservedQty": 1200,
-      "status": "Normal"
-    },
-    {
-      "date": "2025-01-11",
-      "availableQty": 4100,
-      "reservedQty": 1400,
-      "status": "Atenção"
-    },
-    {
-      "date": "2025-01-12",
-      "availableQty": 3950,
-      "reservedQty": 1500,
-      "status": "Atenção"
+      "batchId": "SUP-S10-BATCH-556",
+      "supplier": "Fornecedor SUP10 – Metalúrgica Santos",
+      "totalItems": 3,
+      "items": [
+        {
+          "partId": "PIN-16F-2024",
+          "description": "Pino do Pistão 1.6 Flex",
+          "availableQty": 2100,
+          "leadTimeDays": 2
+        },
+        {
+          "partId": "VLV-20T-2024",
+          "description": "Válvula Termostática 2.0 Turbo",
+          "availableQty": 540,
+          "leadTimeDays": 3
+        },
+        {
+          "partId": "COR-ALT-01",
+          "description": "Correia do Alternador",
+          "availableQty": 1200,
+          "leadTimeDays": 1
+        }
+      ]
     }
   ]
 }
