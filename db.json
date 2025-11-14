@@ -1,0 +1,25 @@
+{
+  "supplierId": "SUP-010",
+  "supplierName": "Metalúrgica Futurion",
+  "partId": "PIN-16F-2024",
+  "availability": [
+    {
+      "date": "2025-01-10",
+      "availableQty": 4300,
+      "reservedQty": 1200,
+      "status": "Normal"
+    },
+    {
+      "date": "2025-01-11",
+      "availableQty": 4100,
+      "reservedQty": 1400,
+      "status": "Atenção"
+    },
+    {
+      "date": "2025-01-12",
+      "availableQty": 3950,
+      "reservedQty": 1500,
+      "status": "Atenção"
+    }
+  ]
+}
